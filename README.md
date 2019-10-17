@@ -25,6 +25,6 @@ Simply change the URL as shown below in the file `getCyrusFiles.sh` as descriped
             [cloudera@quickstart ~]$ cat getCyrusFiles.sh
             for i in `seq 10`
             do
-            #curl www.artamene.org/documents/cyrus$i.txt -o cyrus$i.txt
-            #TBD
+            # curl www.artamene.org/documents/cyrus$i.txt -o cyrus$i.txt (# Comments out this line)
+            curl https://raw.githubusercontent.com/xbsd/cyrusfiles/master/cyrus$i.txt -o cyrus$i.txt
             done```
